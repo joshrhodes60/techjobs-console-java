@@ -72,8 +72,10 @@ public class JobData {
                 if (aValue.contains(searchTerm.toLowerCase())) {
 
                     jobs.add(job);
+                    break;
 
                 }
+
 
 //                System.out.println("*****");
             }
